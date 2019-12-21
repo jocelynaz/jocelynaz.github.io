@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+
   		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   	<style>
@@ -73,6 +74,15 @@ header .overlay {
 }
 
 
+#layer {
+  polygon-fill: ramp([right_total], (#ffc6c4, #ee919b, #cc607d, #9e3963, #531233), quantiles);
+}
+#layer::outline {
+  line-width: 2.5;
+  line-color: #FFFFFF;
+  line-opacity: 0.5;
+}
+
 
 
     <meta charset="UTF-8">
@@ -115,8 +125,13 @@ In October, <a href="https://data.cityofnewyork.us/Social-Services/Individual-Ce
 <br><br>
 
 <div align="center">
+<div id="map">
+<iframe width="100%" height="520" frameborder="0" src="https://jocela.carto.com/builder/a1394a96-f71d-4d9d-b5a7-d7efcb7f5419/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div></div>
 
-<iframe width="100%" height="520" frameborder="0" src="https://jocela.carto.com/builder/77885fa2-dd98-4b27-8a11-e4fd9045ef9a/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
+
+
+
+
 
 <br>The top three boroughs housing the most homeless individuals are in the Bronx’s district 4 and Queens’ district 12 with populations more than 60% Hispanic and 60% black. While a majority of black and brown communities house the most homeless individuals, 8 community districts predominantly white house zero. When homelessness is epidemic in New York City, the city plans to place the shelters in communities of color to segregate the issue in clusters of poverty while predominantly white communities do not have to look or think about the homeless crisis. As stated in the "Turning the Tide on Homelessness" press release, what has the city done for both the New Yorkers of color and the homeless community?</p2>
 
